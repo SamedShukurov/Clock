@@ -53,12 +53,12 @@ body {
   text-align: center;
   color: #fff;
   font-size: 1.25em;
-  transform: rotate(calc(90deg * var(--i)));
+  transform: rotate(calc(30deg * var(--i)));
 }
 .clock .numbers span b {
   font-weight: 600;
   display: inline-block;
-  transform: rotate(calc(-90deg * var(--i)));
+  transform: rotate(calc(-30deg * var(--i)));
 }
 .clock .numbers::before {
   content: "";
